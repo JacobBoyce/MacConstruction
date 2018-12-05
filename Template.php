@@ -5,7 +5,7 @@ include "connect.php";
  <html lang="en">
  <head>
    <!-- Theme Made By www.w3schools.com - No Copyright -->
-   <title>Bootstrap Theme Simply Me</title>
+   <title>Freedom Construction</title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -74,42 +74,52 @@ include "connect.php";
 
  <!-- First Container -->
  <div class="container-fluid bg-1 text-center">
-   <h3 class="margin">Who Am I?</h3>
-   <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-   <h3>I'm an adventurer</h3>
+   <h3 class="margin">Freedom Construction</h3>
+   <img src="images/topPic.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="450" height="450">
+   <h3>Residential Contractor</h3>
  </div>
 
  <!-- Second Container -->
  <div class="container-fluid bg-2 text-center">
-   <h3 class="margin">What Am I?</h3>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-   <a href="#" class="btn btn-default btn-lg">
-     <span class="glyphicon glyphicon-search"></span> Search
-   </a>
+   <h3 class="margin">Services</h3>
+   <div class="row">
+     <div class="col-sm-4">
+       <p>Tile work.</p>
+       <center><img src="images/tileShower.jpg" class="img-responsive margin img-circle margin" style="width:100%" alt="Image"></center>
+     </div>
+     <div class="col-sm-4">
+       <p>Additions.</p>
+       <center><img src="images/addition.jpg" class="img-responsive margin img-circle margin" style="width:100%" alt="Image"></center>
+     </div>
+     <div class="col-sm-4">
+       <p>Complete houses.</p>
+       <center><img src="images/house.jpg" class="img-responsive margin img-circle margin" style="width:100%" alt="Image"></center>
+     </div>
+   </div>
  </div>
 
  <!-- Third Container (Grid) -->
  <div class="container-fluid bg-3 text-center">
-   <h3 class="margin">Where To Find Me?</h3><br>
+   <h3 class="margin">Follow Us!</h3><br>
    <div class="row">
      <div class="col-sm-4">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-       <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+       <p>Join our group and request us for a job. <br>Check out our old jobs as well.</br></p>
+       <center><img src="images/Facebook-Logo.png" class="img-responsive margin" style="width:25%" alt="Image"></center>
      </div>
      <div class="col-sm-4">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-       <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+       <p>See years of our past jobs and see the quality of our work!<br></br></p>
+       <center><img src="images/insta.png" class="img-responsive margin" style="width:25%" alt="Image"></center>
      </div>
      <div class="col-sm-4">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-       <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+       <p>Contact us here for more information about our work.<br></br></p>
+       <center><img src="images/twitter.png" class="img-responsive margin" style="width:25%" alt="Image"></center>
      </div>
    </div>
  </div>
 
  <!-- Footer -->
  <footer class="container-fluid bg-4 text-center">
-   <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+   <p><!--Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a> --></p>
  </footer>
 
  </body>
